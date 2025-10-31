@@ -1,0 +1,98 @@
+*{
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+    
+}
+.navigation{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(140, 140, 173);
+    padding: 50px;
+}
+
+nav{
+    align-items:center ;
+    display: flex;
+    gap: 20px;}
+
+li{
+    display: inline-block;
+
+    }
+    nav a{
+        color: black;
+        text-decoration: none;
+        margin-left: 25px;
+        font-weight: 500px;
+    }
+
+.intro h1, h3, p{
+    padding: 10px;
+    margin: 15px;
+}
+p{
+ font-size: larger;
+}
+.objectives{
+    display: flex;
+    justify-content: space-between;
+    flex: wrap;
+    width: 100%;
+    gap: 5px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.obj p{
+    font-size: large;
+    line-height: 10px;
+}
+video{
+    width: 100%;
+}
+.contact{
+    width: 60%;
+    margin: 20px auto 50px;
+}
+.contact input, button{
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    border: 1px solid grey;
+    background-color: bisque;
+    color: black;
+}
+.loc{
+    text-align: center;
+    margin-bottom: 30px;
+    padding: 10px;
+    box-shadow: 0 4px 15px;
+    width: 92%;
+    margin: 40px auto;
+    border-radius: 10px;
+}
+.feel{
+    width: 60%;
+    margin: 20px auto 50px;
+}
+.feel input{
+    display: block;
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 10px;
+    text-align: center;
+
+}
+.feel button{
+    cursor: pointer;
+    width: 200px;
+    padding: 15px;
+    margin-left: 38%;
+    
+}
+footer{
+    background: rgb(236, 230, 230);
+    height: 10vh;
+}
